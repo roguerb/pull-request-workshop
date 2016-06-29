@@ -17,9 +17,9 @@ describe RogueMath do
 
   describe 'multiply' do
     let(:a) { 2 }
-    let(:b) { 2 }
+    let(:b) { 3 }
 
-    specify { expect(RogueMath.multiply(a, b)).to eq 4 }
+    specify { expect(RogueMath.multiply(a, b)).to eq 6 }
   end
 
   describe 'divide' do
