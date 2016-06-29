@@ -12,6 +12,10 @@ This workshop is to get some hands on experience with creating pull requests on 
 
  Run `rspec spec`
 
+## Running the Linter
+
+In order to make sure that we all follow the same coding standards, we use Rubocop to lint our files. Before committing, run `rubocop` from your command-line.
+
 ## Contributing
 
   1. Fork it ( https://github.com/[my-github-username]/trueman/fork )
