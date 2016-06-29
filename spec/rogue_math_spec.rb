@@ -30,7 +30,7 @@ describe RogueMath do
   end
 
   describe 'square' do
-    let(:a) { Random.rand }
+    let(:a) { 7 }
 
     specify { expect(RogueMath.square(a)).to eq a * a }
   end
