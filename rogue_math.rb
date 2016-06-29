@@ -4,7 +4,7 @@ class RogueMath
   end
 
   def self.subtract(a, b)
-    b - a
+    a - b
   end
 
   def self.multiply(a, b)
@@ -12,10 +12,10 @@ class RogueMath
   end
 
   def self.divide(a, b)
-    b / a
+    a / b
   end
 
-  def square(a)
+  def self.square(a)
     a**2
   end
 end

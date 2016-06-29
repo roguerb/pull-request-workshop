@@ -9,23 +9,29 @@ describe RogueMath do
   end
 
   describe 'subtract' do
-    let(:a) { 2 }
+    let(:a) { 3 }
     let(:b) { 2 }
 
-    specify { expect(RogueMath.subtract(a, b)).to eq 0 }
+    specify { expect(RogueMath.subtract(a, b)).to eq 1 }
   end
 
   describe 'multiply' do
-    let(:a) { 2 }
-    let(:b) { 3 }
+    let(:a) { 3 }
+    let(:b) { 2 }
 
     specify { expect(RogueMath.multiply(a, b)).to eq 6 }
   end
 
   describe 'divide' do
-    let(:a) { 2 }
+    let(:a) { 6 }
     let(:b) { 2 }
 
-    specify { expect(RogueMath.divide(a, b)).to eq 1 }
+    specify { expect(RogueMath.divide(a, b)).to eq 3 }
+  end
+
+  describe 'square' do
+    let(:a) { 7 }
+
+    specify { expect(RogueMath.square(a)).to eq 49 }
   end
 end
