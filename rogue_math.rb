@@ -4,15 +4,15 @@ class RogueMath
   end
 
   def self.subtract(a, b)
-    b - a
+    a - b
   end
 
   def self.multiply(a, b)
-    a + b
+    a * b
   end
 
   def self.divide(a, b)
-    b / a
+    a / b
   end
 
   def self.square(a)
