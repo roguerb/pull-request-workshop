@@ -1,6 +1,6 @@
 # Pull Request Workshop
 
-This workshop is to get some hands on experience with creating pull requests on open source repositories. Throughout this project are some issues which could be corrcted. Help us fix these problems and make this project better!
+This workshop is to get some hands on experience with creating pull requests on open source repositories. Throughout this project are some issues which could be corrected. Help us fix these problems and make this project better!
 
 ## Installing
 
