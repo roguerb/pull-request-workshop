@@ -15,7 +15,7 @@ class RogueMath
     b / a
   end
 
-  def square(a)
+  def self.square(a)
     a**2
   end
 end
